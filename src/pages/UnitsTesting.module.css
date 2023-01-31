@@ -1,0 +1,215 @@
+.px {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.px2 {
+  margin: 0;
+}
+.px10px10pxContainer,
+.px20px20pxContainer {
+  position: absolute;
+  top: 1.81rem;
+  left: 5.63rem;
+  font-size: 0.63rem;
+  line-height: 0.63rem;
+  display: flex;
+  align-items: center;
+  width: 33rem;
+  height: 3.13rem;
+}
+.px20px20pxContainer {
+  top: 5.13rem;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+}
+.px30pxTxtContainer {
+  line-break: anywhere;
+  width: 100%;
+}
+.px100px,
+.px30px,
+.px40px,
+.px50px {
+  position: absolute;
+  top: 9.81rem;
+  left: 5.63rem;
+  font-size: 1.88rem;
+  line-height: 1.88rem;
+  display: flex;
+  align-items: center;
+  width: 33rem;
+  height: 3.13rem;
+}
+.px100px,
+.px40px,
+.px50px {
+  top: 15.31rem;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+}
+.px100px,
+.px50px {
+  top: 22.44rem;
+  font-size: 3.13rem;
+  line-height: 3.13rem;
+}
+.px100px {
+  top: 33.75rem;
+  left: 5rem;
+  font-size: 6.25rem;
+  line-height: 6.25rem;
+}
+.unitsTestingChild,
+.unitsTestingInner,
+.unitsTestingItem {
+  position: absolute;
+  top: 55.81rem;
+  left: 9.44rem;
+  background-color: var(--color-gainsboro);
+  width: 0.63rem;
+  height: 0.63rem;
+}
+.unitsTestingInner,
+.unitsTestingItem {
+  top: 6.63rem;
+  left: 42.06rem;
+}
+.unitsTestingInner {
+  top: 11.19rem;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.rectangleDiv,
+.unitsTestingChild1,
+.unitsTestingChild2,
+.unitsTestingChild3 {
+  position: absolute;
+  top: 15.44rem;
+  left: 42.06rem;
+  background-color: var(--color-gainsboro);
+  width: 1.88rem;
+  height: 1.88rem;
+}
+.unitsTestingChild1,
+.unitsTestingChild2,
+.unitsTestingChild3 {
+  top: 19.38rem;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.unitsTestingChild2,
+.unitsTestingChild3 {
+  top: 24.25rem;
+  width: 3.13rem;
+  height: 3.13rem;
+}
+.unitsTestingChild3 {
+  top: 29.13rem;
+  width: 6.25rem;
+  height: 6.25rem;
+}
+.frameChild,
+.frameChild1,
+.frameChild2,
+.frameChild3,
+.frameInner,
+.frameItem {
+  position: relative;
+  background-color: var(--color-gainsboro);
+  width: 0.63rem;
+  height: 0.63rem;
+  flex-shrink: 0;
+}
+.frameChild1,
+.frameChild2,
+.frameChild3,
+.frameInner,
+.frameItem {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.frameChild1,
+.frameChild2,
+.frameChild3,
+.frameInner {
+  width: 1.88rem;
+  height: 1.88rem;
+}
+.frameChild1,
+.frameChild2,
+.frameChild3 {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.frameChild2,
+.frameChild3 {
+  width: 3.13rem;
+  height: 3.13rem;
+}
+.frameChild3 {
+  width: 6.25rem;
+  height: 6.25rem;
+}
+.frameDiv,
+.rectangleContainer,
+.rectangleGroup,
+.rectangleParent,
+.rectangleParent1,
+.rectangleParent2 {
+  position: absolute;
+  top: 45.63rem;
+  left: 5.31rem;
+  background-color: var(--color-red);
+  display: flex;
+  flex-direction: column;
+  padding: 0.63rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.63rem;
+}
+.frameDiv,
+.rectangleContainer,
+.rectangleGroup,
+.rectangleParent1,
+.rectangleParent2 {
+  left: 17.44rem;
+  padding: 1.25rem;
+  gap: 1.25rem;
+}
+.frameDiv,
+.rectangleContainer,
+.rectangleParent1,
+.rectangleParent2 {
+  left: 30.81rem;
+  padding: 1.88rem;
+  gap: 1.88rem;
+}
+.frameDiv,
+.rectangleParent1,
+.rectangleParent2 {
+  left: 45.44rem;
+  padding: 2.5rem;
+  gap: 2.5rem;
+}
+.rectangleParent1,
+.rectangleParent2 {
+  top: 86.69rem;
+  left: 5.31rem;
+  padding: 3.13rem;
+  gap: 3.13rem;
+}
+.rectangleParent2 {
+  left: 24.56rem;
+  padding: 6.25rem;
+  gap: 6.25rem;
+}
+.unitsTesting {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 156rem;
+  overflow: hidden;
+  text-align: left;
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
